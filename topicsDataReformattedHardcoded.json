@@ -1,0 +1,126 @@
+[
+    {
+        "year" : "1900",
+        "topics" : [
+            {
+                "topic": "Society and social change",
+                "value": 18
+            },
+            {
+                "topic": "Writers",
+                "value": 17
+            },
+            {
+                "topic": "Politics",
+                "value": 22
+            },
+            {
+                "topic": "Entertainers",
+                "value": 12
+            },
+            {
+                "topic": "Science and Technology",
+                "value": 2
+            }
+        ]
+    },
+   
+   { "year": "1910",
+     "topics": [
+        {
+            "topic": "Society and social change",
+            "value": 11
+        },
+        {
+            "topic": "Writers",
+            "value": 16
+        },
+        {
+            "topic": "Politics",
+            "value": 13
+        },
+        {
+            "topic": "Entertainers",
+            "value": 11
+        },
+        {
+            "topic": "Science and Technology",
+            "value": 2
+        }
+    ]
+    },
+
+    { "year": "1920",
+    "topics":  [
+        {
+            "topic": "Society and social change",
+            "value": 3
+        },
+        {
+            "topic": "Writers",
+            "value": 13
+        },
+        {
+            "topic": "Politics",
+            "value": 4
+        },
+        {
+            "topic": "Entertainers",
+            "value": 20
+        },
+        {
+            "topic": "Science and Technology",
+            "value": 2
+        }
+    ]
+    },
+
+    {"year": "1930",
+        "topics" : [
+            {
+                "topic": "Society and social change",
+                "value": 5
+            },
+            {
+                "topic": "Writers",
+                "value": 7
+            },
+            {
+                "topic": "Politics",
+                "value": 5
+            },
+            {
+                "topic": "Entertainers",
+                "value": 4
+            },
+            {
+                "topic": "Science and Technology",
+                "value": 2
+            }
+        ]
+}, 
+    {"year" : "1940",
+        "topics": [
+            {
+                "topic": "Society and social change",
+                "value": 10
+            },
+            {
+                "topic": "Writers",
+                "value": 13
+            },
+            {
+                "topic": "Politics",
+                "value": 10
+            },
+            {
+                "topic": "Entertainers",
+                "value": 32
+            },
+            {
+                "topic": "Science and Technology",
+                "value": 1
+            }
+        ]
+}
+]
