@@ -1,3 +1,4 @@
+//d3 version 6 code
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 900 - margin.left - margin.right,
     height = 380 - margin.top - margin.bottom;
