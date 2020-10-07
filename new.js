@@ -16,8 +16,8 @@ var xAxis = d3.axisBottom(x0);
 
 var yAxis = d3.axisLeft(y);
 
-var color = d3.scaleBand()
-    .range(["#264653","#2a9d8f","#e9c46a","#f4a261","#e76f51"]);
+//var c = ["#264653","#2a9d8f","#e9c46a","#f4a261","#e76f51"];
+var color = d3.scaleOrdinal(["#264653","#2a9d8f","#e9c46a","#f4a261","#e76f51"]);
 
 // create a tooltip
 var Tooltip = d3.select('body')
@@ -86,21 +86,20 @@ d3.json("topicsDataReformattedHardcoded.json").then(data => {
       .on("mouseover", function(d) {
           Tooltip
             .style("opacity",1)
-            //.html(d.value)
-            //.style('transform', `translate(${d3.event.layerX}px, ${d3.event.layerY}px)`)
-            // .style("left", (d3.event.PageX + 100) + 'px')
-            // .style("top", (d3.event.PageY) + 'px')``` 
+            .html(d.value)
+            .style("left", (d3.event.PageX + 100) + 'px')
+            .style("top", (d3.event.PageY) + 'px')
           d3.select(this)
             .style("stroke", "black")
             .style("opacity",1)
 
       })
-       .on("mousemove", function(d) {
-           Tooltip
-             .html(d.value)
-             .style("left", d3.eventPageX + 'px')
-             .style("top", d3.eventPageY + 'px')
-       })
+       //.on("mousemove", function(d) {
+           //Tooltip
+             //.html(d.value)
+             //.style("left", (d3.mouse(this)[0]+70) + 'px')
+             //.style("top", (d3.mouse(this)[1]) + 'px')
+       //})
       .on("mouseout", function(d) {
           Tooltip
             .style("opacity",0)
