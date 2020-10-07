@@ -66,7 +66,7 @@ d3.json("topicsDataReformattedHardcoded.json", function(error, data) {
       .attr("dy", ".71em")
       .style("text-anchor", "end")
       .style('font-weight','bold')
-      .text("Value");
+      .text("Topic Count");
 
   svg.select('.y').transition().duration(500).delay(1300).style('opacity','1');
 
