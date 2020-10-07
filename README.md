@@ -4,6 +4,9 @@
 ### Final dataset used
 topicsDataReformattedHardcoded.json
 
+### Color Scheme Change
+I changed the color scheme after multiple comments that my original choice was biased. I decided on a more neutral palette.
+
 ### Things to Note
 * Topics were split into 5 main groups (Science and Technology, Entertainers, Politics, Writers, and Society and Social Change). I only looked at topics pertaining to woman’s careers. I filtered out topics about the background of the image (i.e. chair, flowers) or the woman’s appearance (i.e. necklace, costume).
 * Most of the politics topics pertain to women whose husbands work in politics, however I decided to still look at this genre because being a First Lady is still a career.
