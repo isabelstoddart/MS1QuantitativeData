@@ -50,4 +50,5 @@ The final dataset used is topicsData.json
 
 Changes made from iteration 1:
 * The graph now counts for portraits, not for topics. So, as before each individual topic in a category was counted, now each portrait is only counted once per category even if it has multiple tags from one category.
+* I added portraits from The Smithsonian American Art Museum as well to have a bigger dataset
 * I added the portrait gallery so the user can see all of the portraits from the graph
