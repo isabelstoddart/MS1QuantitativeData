@@ -1,0 +1,198 @@
+[
+    {
+        "year" : "1900",
+        "topics" : [
+            {
+                "topic": "Activism",
+                "value": 21
+            },
+            {
+                "topic": "Writers",
+                "value": 15
+            },
+            {
+                "topic": "Domestic",
+                "value": 16
+            },
+            {
+                "topic": "Entertainers",
+                "value": 33
+            },
+            {
+                "topic": "Science and Technology",
+                "value": 1
+            },
+            {
+                "topic": "Sports",
+                "value": 0
+            },
+            {
+                "topic": "Government",
+                "value": 13
+            }
+        ]
+    },
+   
+   { "year": "1910",
+     "topics": [
+        {
+            "topic": "Activism",
+            "value": 17
+        },
+        {
+            "topic": "Writers",
+            "value": 8
+        },
+        {
+            "topic": "Domestic",
+            "value": 13
+        },
+        {
+            "topic": "Entertainers",
+            "value": 26
+        },
+        {
+            "topic": "Science and Technology",
+            "value": 2
+        },
+        {
+            "topic": "Sports",
+            "value": 0
+        },
+        {
+            "topic": "Government",
+            "value": 5
+        }
+    ]
+    },
+
+    { "year": "1920",
+    "topics":  [
+        {
+            "topic": "Activism",
+            "value": 11
+        },
+        {
+            "topic": "Writers",
+            "value": 11
+        },
+        {
+            "topic": "Domestic",
+            "value": 9
+        },
+        {
+            "topic": "Entertainers",
+            "value": 37
+        },
+        {
+            "topic": "Science and Technology",
+            "value": 2
+        },
+        {
+            "topic": "Sports",
+            "value": 3
+        },
+        {
+            "topic": "Government",
+            "value": 4
+        }
+    ]
+    },
+
+    {"year": "1930",
+        "topics" : [
+            {
+                "topic": "Activism",
+                "value": 2
+            },
+            {
+                "topic": "Writers",
+                "value": 3
+            },
+            {
+                "topic": "Domestic",
+                "value": 6
+            },
+            {
+                "topic": "Entertainers",
+                "value": 8
+            },
+            {
+                "topic": "Science and Technology",
+                "value": 1
+            },
+            {
+                "topic": "Sports",
+                "value": 1
+            },
+            {
+                "topic": "Government",
+                "value": 3
+            }
+        ]
+}, 
+    {"year" : "1940",
+        "topics": [
+            {
+                "topic": "Activism",
+                "value": 2
+            },
+            {
+                "topic": "Writers",
+                "value": 4
+            },
+            {
+                "topic": "Domestic",
+                "value": 3
+            },
+            {
+                "topic": "Entertainers",
+                "value": 8
+            },
+            {
+                "topic": "Science and Technology",
+                "value": 0
+            },
+            {
+                "topic": "Sports",
+                "value": 1
+            },
+            {
+                "topic": "Government",
+                "value": 2
+            }
+        ]
+},
+    {"year" : "1950",
+        "topics": [
+            {
+                "topic": "Activism",
+                "value": 1
+            },
+            {
+                "topic": "Writers",
+                "value": 1
+            },
+            {
+                "topic": "Domestic",
+                "value": 1
+            },
+            {
+                "topic": "Entertainers",
+                "value": 1
+            },
+            {
+                "topic": "Science and Technology",
+                "value": 0
+            },
+            {
+                "topic": "Sports",
+                "value": 0
+            },
+            {
+                "topic": "Government",
+                "value": 1
+            }
+        ]
+}
+]

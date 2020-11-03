@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>What Makes a Woman?</title>
+
+    <style type="text/css">
+      *{
+        margin:0;padding:0;
+        box-sizing: border-box;
+      }
+      body{
+        overflow:  auto;
+        font-family: Arial;
+        background:#ffffff;
+        padding:2rem;
+        color:#222;
+        letter-spacing:-0.5pt;
+      }
+      #app{
+        margin-top: 10px;
+        display:grid;
+        grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 2rem;
+      }
+      
+      #container{
+          text-align: center;
+          padding-top: 200px;
+          padding-bottom: 200px;
+      }
+
+      #container1{
+          text-align: center;
+      }
+
+      #button {
+          margin-top:150px;
+          width: 12em;
+          height:40px;
+          border: 2px solid rgb(255, 255, 255);
+          background: rgb(173, 173, 173);
+          border-radius: 5px;
+          display: inline-block;
+          justify-content: center;
+          text-align: center;
+          margin: auto;
+          vertical-align: middle;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+      }
+
+      a {
+          vertical-align: middle;
+          width: 100%;
+          line-height: 2em;
+          text-align: center;
+          text-decoration: none;
+          color:rgb(0, 0, 0);
+          font-family: Arial;
+          border-radius: 150px;
+          font-weight: bold;
+      }
+
+      a:hover {
+          color: rgb(255, 255, 255);
+          background: rgb(173, 173, 173);
+      }
+
+      .mainText{
+        color: black;
+        text-align: center;
+        font-family: Arial;
+        font-size: 50px;
+        font-weight: lighter;
+        padding-bottom: 3px;
+        padding-top: 220px;
+      }
+
+      .text{
+          color:black;
+          text-align: center;
+          font-family: Arial;
+          font-size: 20px;
+          font-weight: lighter;
+          padding-left: 300px;
+          padding-right: 300px;
+          padding-bottom: 0px;
+      }
+
+      .text1{
+          color:black;
+          text-align: center;
+          font-family: Arial;
+          font-size: 20px;
+          font-weight: bold;
+          padding-left: 300px;
+          padding-right: 300px;
+          padding-bottom: 500px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <div id="container1">
+        <div class="mainText">What Makes a Woman?</div>
+        <div class="text">Art is often split into topics to keep track of the contents of each image. How is the history of women told through the topics used on the portraits of women in The Smithsonian National Portrait Gallery and The Smithsonian American Art Museum between 1900-1950?</div>
+        <div class="text1">Scroll to explore!</div>
+        <img src="LillianDWald.png" alt="LillianDWald" style="position: absolute; left: 27px; top: 170px; width: 500px; height: 500px;">
+    </div>
+    
+    <div id="container">
+        <div id="button"><a href="numbers.html">See the Numbers</a><a class="et_pb_button"></a></div>
+        <div id="button"><a href="portraits.html">Explore the Portraits</a><a class="et_pb_button"></a></div>
+    </div>
+
+    <img src="MaryMcleodBethune.jpg" alt="MaryMcleodBethune" style="position: absolute; left: 2px; top: 1050px; width: 400px; height: 550px;">
+    <img src="gildaGray.jpg" alt="gildaGray" style="position: absolute; right: 70px; top: 1000px; width: 230px; height: 350px;">
+
+    <!-- where our images go -->
+    <div id="app"></div>
+
+  </body>
+  <script>
+    function scrollWin() {
+      window.scrollBy(0, 650);
+    }
+    </script>
+</html>

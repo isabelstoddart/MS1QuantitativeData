@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Major Studio 1 - Lab 6 - d3 Image Display</title>
+
+    <style type="text/css">
+      *{
+        margin:0;padding:0;
+        box-sizing: border-box;
+      }
+      body{
+        overflow:  auto;
+        font-family: Arial;
+        background:#ffffff;
+        padding:2rem;
+        color:#222;
+        letter-spacing:-0.5pt;
+      }
+      #app{
+        margin-top: 10px;
+        display:grid;
+        grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 2rem;
+      }
+      
+      div.smithsonian-card{
+        max-width: 400px;
+        display: inline-block;
+
+        vertical-align:top;
+        white-space:normal;
+      }
+      div.smithsonian-card h2{
+        font-size:1.2rem;
+        line-height:1.1;
+        padding-bottom:0.5em;
+      }
+      div.smithsonian-card div.image{
+        margin-bottom:1rem;
+        width:200px;height:200px;
+        display:flex;
+        align-items: flex-end;
+      }
+      div.smithsonian-card div.image img{
+        max-width:100%;height:auto;
+        max-height:200px;
+      }
+      .object-date{ color:#999; }
+
+      #container1{
+          text-align: center;
+      }
+      
+      #button {
+          margin-top:150px;
+          width: 12em;
+          height:300px;
+          border: 2px solid rgb(255, 255, 255);
+          background: rgb(255, 255, 255);
+          border-radius: 5px;
+          display: inline-block;
+          justify-content: center;
+          text-align: center;
+          margin: auto;
+          vertical-align: middle;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-bottom: 475px;
+      }
+
+      a {
+          vertical-align: middle;
+          width: 100%;
+          line-height: 2em;
+          text-align: center;
+          text-decoration: none;
+          color:rgb(0, 0, 0);
+          font-family: Arial;
+          border-radius: 150px;
+          font-weight: bold;
+      }
+
+      a:hover {
+          color: rgb(255, 255, 255);
+          background: rgb(255, 255, 255);
+      }
+
+      h1{
+        color: rgb(173, 173, 173);
+        text-align: center;
+        font-family: Arial;
+        font-size: 24px;
+        font-weight: lighter;
+        padding-top: 10px;
+        padding-bottom: 155px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <h1>Click on a year to explore the Portraits</h1>
+
+    <div id="container">
+      <div id="button" onclick="scrollWin()"><a href="javascript:filterData('1900s')"><img src="./downloads/NPG-S_NPG_78_124.jpg" width="200" height="220">1900s</a><a class="et_pb_button"></a></div>
+      <div id="button" onclick="scrollWin()"><a href="javascript:filterData('1910s')"><img src="./downloads/NPG-NPG_84_250.jpg" width="200" height="220">1910s</a><a class="et_pb_button"></a></div>
+      <div id="button" onclick="scrollWin()"><a href="javascript:filterData('1920s')"><img src="./downloads/NPG-NPG_91_170.jpg" width="200" height="220">1920s</a><a class="et_pb_button"></a></div>
+      <div id="button" onclick="scrollWin()"><a href="javascript:filterData('1930s')"><img src="./downloads/NPG-B5000334A.jpg" width="200" height="220">1930s</a><a class="et_pb_button"></a></div>
+      <div id="button" onclick="scrollWin()"><a href="javascript:filterData('1940s')"><img src="./downloads/NPG-S_NPG_80_61Henie-000001.jpg" width="200" height="220">1940s</a><a class="et_pb_button"></a></div>
+      <div id="button" onclick="scrollWin()"><a href="javascript:filterData('1950s')"><img src="./downloads/NPG-7700116C_1.jpg" width="200" height="220">1950s</a><a class="et_pb_button"></a></div>
+    </div>
+
+    <!-- where our images go -->
+    <div id="app"></div>
+
+  </body>
+  <script src="./d3.v5.min.js"></script>
+  <script src="app.js"></script>
+  <script>
+    function scrollWin() {
+      window.scrollBy(0, 650);
+    }
+    </script>
+</html>
