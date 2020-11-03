@@ -23,11 +23,11 @@ The final dataset used is topicsData.json
 
 I have included screen shots below. The first shows the home page and the second and third show the graph and the portrait gallery.
 
-![](QuantImage1)
+![](QuantImage1.png)
 
-![](QuantImage2)
+![](QuantImage2.png)
 
-![](QuantImage3)
+![](QuantImage3.png)
 
 Changes made from iteration 1:
 * The graph now counts for portraits, not for topics. So, as before each individual topic in a category was counted, now each portrait is only counted once per category even if it has multiple tags from one category.
