@@ -43,7 +43,11 @@ An important thing to note is that looking beyond woman’s representation throu
 * Possibly incorporate images into the visual so when you roll your mouse over a bar a portrait pops up. Possibly explore this for Qualitative Visualization.
 * Possibly have another bar graph with subgroups pop up when you click on a bar.
 
-## Final
+## Final Iteration
 The final visualization can be found at isabelstoddart.github.io/MSQuantitativeData/
 
 The final dataset used is topicsData.json
+
+Changes made from iteration 1:
+* The graph now counts for portraits, not for topics. So, as before each individual topic in a category was counted, now each portrait is only counted once per category even if it has multiple tags from one category.
+* I added the portrait gallery so the user can see all of the portraits from the graph
