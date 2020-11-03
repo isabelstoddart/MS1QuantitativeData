@@ -44,7 +44,7 @@ An important thing to note is that looking beyond woman’s representation throu
 * Possibly have another bar graph with subgroups pop up when you click on a bar.
 
 ## Final Iteration
-The final visualization can be found at isabelstoddart.github.io/MSQuantitativeData/
+The final visualization can be found at https://isabelstoddart.github.io/MS1QuantitativeData/
 
 The final dataset used is topicsData.json
 
