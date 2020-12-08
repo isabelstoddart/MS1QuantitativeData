@@ -1,7 +1,7 @@
 //Original d3 version 3 code
-var margin = {top: 80, right: 25, bottom: 100, left: 200},
-    width = 1000 - margin.left - margin.right,
-    height = 600 - margin.top - margin.bottom;
+var margin = {top: 50, right: 25, bottom: 100, left: 200},
+    width = 1300 - margin.left - margin.right,
+    height = 700 - margin.top - margin.bottom;
 
 var x0 = d3.scale.ordinal()
     .rangeRoundBands([0, width], .1);
@@ -75,7 +75,8 @@ d3.json("topicsData.json", function(error, data) {
       .style('font-weight','bold')
       .text("Portrait Count");
 
-  svg.select('.y').transition().duration(500).delay(1300).style('opacity','1');
+  //svg.select('.y').transition().duration(500).delay(1300).style('opacity','1');
+  svg.select('.y').style('opacity','1');
 
   var slice = svg.selectAll(".slice")
       .data(data)
@@ -104,24 +105,17 @@ d3.json("topicsData.json", function(error, data) {
             .style("opacity",1)
 
       })
-    //   .on("mousemove", function(d) {
-    //       Tooltip
-    //         .html(d.value)
-    //         .style("left", d3.eventPageX + 10 + 'px')
-    //         .style("top", d3.eventPageY + 50 + 'px')
-    //   })
       .on("mouseout", function(d) {
           Tooltip
             .style("opacity",0)
           d3.select(this).style("stroke","none");
       });
 
-  slice.selectAll("rect")
-      .transition()
-      .delay(function (d) {return Math.random()*1000;})
-      .duration(1000)
-      .attr("y", function(d) { return y(d.value); })
-      .attr("height", function(d) { return height - y(d.value); });
+   slice.selectAll("rect")
+       //.delay(function (d) {return Math.random()*1000;})
+       //.duration(1000)
+       .attr("y", function(d) { return y(d.value); })
+       .attr("height", function(d) { return height - y(d.value); });
 
   //Legend
   var legend = svg.selectAll(".legend")
@@ -144,6 +138,6 @@ d3.json("topicsData.json", function(error, data) {
       .style("text-anchor", "end")
       .text(function(d) {return d; });
 
-  legend.transition().duration(500).delay(function(d,i){ return 1300 + 100 * i; }).style("opacity","1");
+  legend.style("opacity","1");
 
 });
