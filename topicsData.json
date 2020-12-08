@@ -4,23 +4,23 @@
         "topics" : [
             {
                 "topic": "Activism",
-                "value": 21
+                "value": 51
             },
             {
                 "topic": "Writers",
-                "value": 15
+                "value": 42
             },
             {
                 "topic": "Domestic",
-                "value": 16
+                "value": 9
             },
             {
                 "topic": "Entertainers",
-                "value": 33
+                "value": 46
             },
             {
                 "topic": "Science and Technology",
-                "value": 1
+                "value": 4
             },
             {
                 "topic": "Sports",
@@ -28,7 +28,7 @@
             },
             {
                 "topic": "Government",
-                "value": 13
+                "value": 26
             }
         ]
     },
@@ -37,31 +37,31 @@
      "topics": [
         {
             "topic": "Activism",
-            "value": 17
+            "value": 42
         },
         {
             "topic": "Writers",
-            "value": 8
+            "value": 42
         },
         {
             "topic": "Domestic",
-            "value": 13
+            "value": 3
         },
         {
             "topic": "Entertainers",
-            "value": 26
+            "value": 123
         },
         {
             "topic": "Science and Technology",
-            "value": 2
+            "value": 5
         },
         {
             "topic": "Sports",
-            "value": 0
+            "value": 4
         },
         {
             "topic": "Government",
-            "value": 5
+            "value": 12
         }
     ]
     },
@@ -70,31 +70,31 @@
     "topics":  [
         {
             "topic": "Activism",
-            "value": 11
+            "value": 51
         },
         {
             "topic": "Writers",
-            "value": 11
+            "value": 69
         },
         {
             "topic": "Domestic",
-            "value": 9
+            "value": 6
         },
         {
             "topic": "Entertainers",
-            "value": 37
+            "value": 181
         },
         {
             "topic": "Science and Technology",
-            "value": 2
+            "value": 11
         },
         {
             "topic": "Sports",
-            "value": 3
+            "value": 8
         },
         {
             "topic": "Government",
-            "value": 4
+            "value": 21
         }
     ]
     },
@@ -103,31 +103,31 @@
         "topics" : [
             {
                 "topic": "Activism",
-                "value": 2
+                "value": 85
             },
             {
                 "topic": "Writers",
-                "value": 3
+                "value": 138
             },
             {
                 "topic": "Domestic",
-                "value": 6
+                "value": 16
             },
             {
                 "topic": "Entertainers",
-                "value": 8
+                "value": 242
             },
             {
                 "topic": "Science and Technology",
-                "value": 1
+                "value": 19
             },
             {
                 "topic": "Sports",
-                "value": 1
+                "value": 10
             },
             {
                 "topic": "Government",
-                "value": 3
+                "value": 36
             }
         ]
 }, 
@@ -135,31 +135,31 @@
         "topics": [
             {
                 "topic": "Activism",
-                "value": 2
+                "value": 74
             },
             {
                 "topic": "Writers",
-                "value": 4
+                "value": 127
             },
             {
                 "topic": "Domestic",
-                "value": 3
+                "value": 11
             },
             {
                 "topic": "Entertainers",
-                "value": 8
+                "value": 233
             },
             {
                 "topic": "Science and Technology",
-                "value": 0
+                "value": 9
             },
             {
                 "topic": "Sports",
-                "value": 1
+                "value": 11
             },
             {
                 "topic": "Government",
-                "value": 2
+                "value": 29
             }
         ]
 },
@@ -167,32 +167,196 @@
         "topics": [
             {
                 "topic": "Activism",
-                "value": 1
+                "value": 49
             },
             {
                 "topic": "Writers",
-                "value": 1
+                "value": 81
             },
             {
                 "topic": "Domestic",
-                "value": 1
+                "value": 11
             },
             {
                 "topic": "Entertainers",
-                "value": 1
+                "value": 177
             },
             {
                 "topic": "Science and Technology",
-                "value": 0
+                "value": 6
             },
             {
                 "topic": "Sports",
-                "value": 0
+                "value": 6
             },
             {
                 "topic": "Government",
-                "value": 1
+                "value": 28
             }
         ]
+},
+{
+    "year" : "1960",
+    "topics" : [
+        {
+            "topic": "Activism",
+            "value": 51
+        },
+        {
+            "topic": "Writers",
+            "value": 82
+        },
+        {
+            "topic": "Domestic",
+            "value": 16
+        },
+        {
+            "topic": "Entertainers",
+            "value": 85
+        },
+        {
+            "topic": "Science and Technology",
+            "value": 3
+        },
+        {
+            "topic": "Sports",
+            "value": 4
+        },
+        {
+            "topic": "Government",
+            "value": 36
+        }
+    ]
+},
+
+{ "year": "1970",
+ "topics": [
+    {
+        "topic": "Activism",
+        "value": 46
+    },
+    {
+        "topic": "Writers",
+        "value": 46
+    },
+    {
+        "topic": "Domestic",
+        "value": 4
+    },
+    {
+        "topic": "Entertainers",
+        "value": 93
+    },
+    {
+        "topic": "Science and Technology",
+        "value": 6
+    },
+    {
+        "topic": "Sports",
+        "value": 5
+    },
+    {
+        "topic": "Government",
+        "value": 43
+    }
+]
+},
+
+{ "year": "1980",
+"topics":  [
+    {
+        "topic": "Activism",
+        "value": 39
+    },
+    {
+        "topic": "Writers",
+        "value": 44
+    },
+    {
+        "topic": "Domestic",
+        "value": 5
+    },
+    {
+        "topic": "Entertainers",
+        "value": 53
+    },
+    {
+        "topic": "Science and Technology",
+        "value": 1
+    },
+    {
+        "topic": "Sports",
+        "value": 7
+    },
+    {
+        "topic": "Government",
+        "value": 54
+    }
+]
+},
+
+{"year": "1990",
+    "topics" : [
+        {
+            "topic": "Activism",
+            "value": 33
+        },
+        {
+            "topic": "Writers",
+            "value": 31
+        },
+        {
+            "topic": "Domestic",
+            "value": 5
+        },
+        {
+            "topic": "Entertainers",
+            "value": 36
+        },
+        {
+            "topic": "Science and Technology",
+            "value": 1
+        },
+        {
+            "topic": "Sports",
+            "value": 2
+        },
+        {
+            "topic": "Government",
+            "value": 39
+        }
+    ]
+}, 
+{"year" : "2000/2010",
+    "topics": [
+        {
+            "topic": "Activism",
+            "value": 23
+        },
+        {
+            "topic": "Writers",
+            "value": 20
+        },
+        {
+            "topic": "Domestic",
+            "value": 5
+        },
+        {
+            "topic": "Entertainers",
+            "value": 24
+        },
+        {
+            "topic": "Science and Technology",
+            "value": 7
+        },
+        {
+            "topic": "Sports",
+            "value": 12
+        },
+        {
+            "topic": "Government",
+            "value": 11
+        }
+    ]
 }
 ]
