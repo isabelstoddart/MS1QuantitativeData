@@ -26,10 +26,10 @@ Changes made from iteration 1:
 ## Iteration 3
 My final iteration of this project is a sample of a full analysis of portraits in the National Portrait Gallery from 1900-2010. I decided to expand the dates from my previous iteration after much comment on seeing the full picture.
 
-For this iteration I am just looking at the topics Society and social change, Science and Technology, Government, Writers, Domestic, Sports, and Entertainment. In order to see the complete story of portrait representation I had to abandon the API and look at the Smithsonian Collections Search Center. I got my topic count by using the query All Records / Dates: 1900s - 2010s / online media:"Images" / catalog record source:"National Portrait Gallery" / topic:"Women" / topic:"Portraits" and looking by year at the different topics.
+For this iteration I am just looking at the topics: Society and social change, Science and Technology, Government, Writers, Domestic, Sports, and Entertainment. In order to see the complete story of portrait representation I had to abandon the API and look at the Smithsonian Collections Search Center. I got my topic count by using the query All Records / Dates: 1900s - 2010s / online media:"Images" / catalog record source:"National Portrait Gallery" / topic:"Women" / topic:"Portraits" and looking by year at the different topics.
 
-The images are also a sample containing all of the non copyrighted images I could get from the API and a sample of 3 randomly chosen portraits from 1960,1970,1980,1990, and 2000/2010.
+The images are also a sample containing all of the non copyrighted images I could get from the API and a sample of 3 randomly chosen portraits from 1960, 1970, 1980, 1990, and 2000/2010.
 
-A finalized version of this project would include a system like before where all topics are counted and recorded and split into categories. As it is now, some topics are not counted where they should be, such as congresswomen in the government category and artists in the entertainers category. It would also include all of the portraits of women. As of now, there is only a small sample of the 2,132 portraits. 
+A finalized version of this project would include a system like before where all topics are counted and recorded and split into categories. As it is now, some topics are not counted where they should be, such as congresswomen in the government category and artists in the entertainers category. It would also include all of the images of the portraits of women. As of now, there is only a small sample of the 2,132 portraits. 
 
-the final prototype can be found at 
+The final prototype can be found at https://isabelstoddart.github.io/MS1QuantitativeData/
