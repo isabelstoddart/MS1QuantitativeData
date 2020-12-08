@@ -1,7 +1,3 @@
-// "d3" is globally available
-// because we have the d3 code
-// in our index.html file
-
 let sourceJson;
 let filteredJson;
 
@@ -12,8 +8,6 @@ d3.json('./data.json')
       // display images function
       sourceJson = json;
   }); 
-
-
 
 // Here wefilter the source json file
 function filterData(mode){
@@ -41,6 +35,26 @@ function filterData(mode){
         filteredJson = sourceJson.filter(function (n){
         return (n.date == "1950s")
     })
+    } else if(mode=="1960s"){
+        filteredJson = sourceJson.filter(function (n){
+        return (n.date == "1960s")
+    })
+    }else if(mode=="1970s"){
+        filteredJson = sourceJson.filter(function (n){
+        return (n.date == "1970s")
+    })
+    }else if(mode=="1980s"){
+        filteredJson = sourceJson.filter(function (n){
+        return (n.date == "1980s")
+    })
+    }else if(mode=="1990s"){
+        filteredJson = sourceJson.filter(function (n){
+        return (n.date == "1990s")
+    })
+    }else if(mode=="2000/2010s"){
+        filteredJson = sourceJson.filter(function (n){
+        return (n.date == "2000/2010s")
+    })
     }
     // Now that the data has been filtered we can display it
     displayImages()
@@ -53,12 +67,6 @@ function displayImages(){
     // this is where we want all of our
     // images to be added
     let app  = d3.select('#app').text('');
-
-    // take our JSON and sort it
-    // date descending
-    //let data = json.sort( (a,b) => (b.date > a.date) ? 1 : -1 );
-    // // date ascending
-    // let data = json.sort( (a,b) => (a.date > b.date) ? 1 : -1 );
 
 
     // define "cards" for each item
@@ -77,7 +85,7 @@ function displayImages(){
             // all our images are in the "images"
             // folder which we will need to 
             // add to our filename first
-            return './downloads/' + d.filename
+            return './pictures/' + d.filename
         });
 
     // create a paragraph that will
@@ -91,4 +99,8 @@ function displayImages(){
     card.append('h2')
         .attr('class', 'title')
         .text(d=>d.title);
+
+    card.append('h3')
+        .attr('class', 'title')
+        .text(d=>d.topic.slice(0,4))
 }
