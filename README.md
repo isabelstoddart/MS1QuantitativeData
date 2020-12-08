@@ -33,3 +33,5 @@ The images are also a sample containing all of the non copyrighted images I coul
 A finalized version of this project would include a system like before where all topics are counted and recorded and split into categories. As it is now, some topics are not counted where they should be, such as congresswomen in the government category and artists in the entertainers category. It would also include all of the images of the portraits of women. As of now, there is only a small sample of the 2,132 portraits. 
 
 The final prototype can be found at https://isabelstoddart.github.io/MS1QuantitativeData/
+
+** Bar chart inspired by https://bl.ocks.org/bricedev/0d95074b6d83a77dc3ad **
