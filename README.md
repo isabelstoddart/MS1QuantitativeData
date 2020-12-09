@@ -10,7 +10,7 @@ The 7 groups have multiple topics within them. I include these below:
 
 Science and Technology: "Engineers", "Science and Technology", "Health and Medicine", "Air pilots", "Inventors", "Scientists"
 
-Government: "First Ladies", "Government", "Politics", "Daughter of US President", "Mother of US President", "Judge", "Congressmen"
+Government: "First Ladies", "Government", "Politics", "Daughter of US President", "Mother of US President", "Judge", "Congressmen", "Queen"
 
 Writers: "Writers", "Journalism", "Novelists", "Pulitzer Price", "Literature", "Columnist"
 
