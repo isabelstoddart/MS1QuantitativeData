@@ -8,7 +8,7 @@ For the graph, I split topics into 7 categories. These categories are Science an
 
 The 7 groups have multiple topics within them. I include these below:
 
-Science and Technology: "Engineers", "Science and Technology", "Health and Medicine", "Air pilots", "Inventors", "Scientists"
+Science and Technology: "Engineers", "Science and Technology", "Health and Medicine", "Air pilots", "Inventors", "Scientists", "Nurses"
 
 Government: "First Ladies", "Government", "Politics", "Daughter of US President", "Mother of US President", "Judge", "Congressmen", "Queen"
 
