@@ -4,7 +4,25 @@ For this visualization I wanted to show how woman in the Smithsonian are represe
 
 The visualization is split up into a graph showing a count of the number of portraits with each topic and a gallery of portraits showing the portraits from each year represented. 
 
-For the graph, I split topics into 7 categories. These categories are Science and Technology, Government, Writers, Domestic, Sports, Entertainment, and Activism. I grouped topics pertaining to this categories into these 7 areas. I grouped Health and Wellness into the Science and Technology category and Government consists of women who worked in government and first ladies. 
+For the graph, I split topics into 7 categories. These categories are Science and Technology, Government, Writers, Business, Sports, Entertainment, and Activism. I grouped topics pertaining to this categories into these 7 areas. 
+
+The 7 groups have multiple topics within them. I include these below:
+
+Science and Technology: "Engineers", "Science and Technology", "Health and Medicine", "Air pilots", "Inventors", "Scientists"
+
+Government: "First Ladies", "Government", "Politics", "Daughter of US President", "Mother of US President", "Judge", "Congressmen"
+
+Writers: "Writers", "Journalism", "Novelists", "Pulitzer Price", "Literature", "Columnist"
+
+Business: "Business", "Business and Finance"
+
+Sports: "Sports and Recreation", "Olympic Medal", "Athletes"
+
+Entertainment: "Ceramicist", "Entertainers", "Crafts", "Singer", "Artists", "Ballet", "Dancer", "Songwriter", "Violinist", "Comedian", "Musicians", "Potters", "Oscar", "Crafts and Trades", "Burlesque", "Actors and Actresses", "Television Personality", "Playwright", "Sculptors", "Illustrator", "Art"
+
+Many of these topics overlap, so I wrote a code to count each portrait only once for each category. Code can be found here: 
+
+
 
 ## Iteration 1
 ![](HighFidelityPrototype.png)
