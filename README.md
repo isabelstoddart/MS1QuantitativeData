@@ -20,6 +20,8 @@ Sports: "Sports and Recreation", "Olympic Medal", "Athletes"
 
 Entertainment: "Ceramicist", "Entertainers", "Crafts", "Singer", "Artists", "Ballet", "Dancer", "Songwriter", "Violinist", "Comedian", "Musicians", "Potters", "Oscar", "Crafts and Trades", "Burlesque", "Actors and Actresses", "Television Personality", "Playwright", "Sculptors", "Illustrator", "Art"
 
+Activism: "Women's rights advocate", "Activists", "Humanitarianism", "Humanities and Social Sciences", "Activism", "Philanthropists", "Justice", "Society and social change", "Social Reformer", "Reformers"
+
 Many of these topics overlap, so I wrote a code to count each portrait only once for each category. Code can be found here: https://github.com/isabelstoddart/MS1QuantitativeData/blob/main/get.js
 
 ## Iteration 1
