@@ -3,7 +3,7 @@
 [Final Project](https://isabelstoddart.github.io/MS1QuantitativeData/)
 
 ### Description
-For this visualization I wanted to show how woman in the Smithsonian are represented through the topics they are tagged with. I looked at the portraits of women in The National Portrait Gallery. I chose to look at portraits because historically portraits were only painted of prominent figures and I wanted to see which women were classified as important enough to have a portrait made of them and why.
+For this visualization I wanted to show how women in the Smithsonian are represented through the topics they are tagged with. I looked at the portraits of women in The National Portrait Gallery. I chose to look at portraits because historically portraits were only painted of prominent figures and I wanted to see which women were classified as important enough to have a portrait made of them and why.
 
 The visualization is split up into a graph showing a count of the number of portraits with each topic and a gallery of portraits split up by year.
 
