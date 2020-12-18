@@ -11,16 +11,16 @@
                 "value": 42
             },
             {
-                "topic": "Domestic",
-                "value": 9
+                "topic": "Business",
+                "value": 10
             },
             {
-                "topic": "Entertainers",
-                "value": 46
+                "topic": "Entertainers/Artists",
+                "value": 59
             },
             {
-                "topic": "Science and Technology",
-                "value": 4
+                "topic": "Science and Technology/Health and Medicine",
+                "value": 6
             },
             {
                 "topic": "Sports",
@@ -44,16 +44,16 @@
             "value": 42
         },
         {
-            "topic": "Domestic",
-            "value": 3
+            "topic": "Business",
+            "value": 8
         },
         {
-            "topic": "Entertainers",
-            "value": 123
+            "topic": "Entertainers/Artists",
+            "value": 134
         },
         {
-            "topic": "Science and Technology",
-            "value": 5
+            "topic": "Science and Technology/Health and Medicine",
+            "value": 9
         },
         {
             "topic": "Sports",
@@ -61,7 +61,7 @@
         },
         {
             "topic": "Government",
-            "value": 12
+            "value": 13
         }
     ]
     },
@@ -77,16 +77,16 @@
             "value": 69
         },
         {
-            "topic": "Domestic",
-            "value": 6
+            "topic": "Business",
+            "value": 9
         },
         {
-            "topic": "Entertainers",
-            "value": 181
+            "topic": "Entertainers/Artists",
+            "value": 227
         },
         {
-            "topic": "Science and Technology",
-            "value": 11
+            "topic": "Science and Technology/Health and Medicine",
+            "value": 16
         },
         {
             "topic": "Sports",
@@ -110,16 +110,16 @@
                 "value": 138
             },
             {
-                "topic": "Domestic",
-                "value": 16
+                "topic": "Business",
+                "value": 25
             },
             {
-                "topic": "Entertainers",
-                "value": 242
+                "topic": "Entertainers/Artists",
+                "value": 303
             },
             {
-                "topic": "Science and Technology",
-                "value": 19
+                "topic": "Science and Technology/Health and Medicine",
+                "value": 29
             },
             {
                 "topic": "Sports",
@@ -142,16 +142,16 @@
                 "value": 127
             },
             {
-                "topic": "Domestic",
-                "value": 11
+                "topic": "Business",
+                "value": 15
             },
             {
-                "topic": "Entertainers",
-                "value": 233
+                "topic": "Entertainers/Artists",
+                "value": 282
             },
             {
-                "topic": "Science and Technology",
-                "value": 9
+                "topic": "Science and Technology/Health and Medicine",
+                "value": 17
             },
             {
                 "topic": "Sports",
@@ -174,16 +174,16 @@
                 "value": 81
             },
             {
-                "topic": "Domestic",
-                "value": 11
+                "topic": "Business",
+                "value": 10
             },
             {
-                "topic": "Entertainers",
-                "value": 177
+                "topic": "Entertainers/Artists",
+                "value": 210
             },
             {
-                "topic": "Science and Technology",
-                "value": 6
+                "topic": "Science and Technology/Health and Medicine",
+                "value": 14
             },
             {
                 "topic": "Sports",
@@ -207,16 +207,16 @@
             "value": 82
         },
         {
-            "topic": "Domestic",
-            "value": 16
+            "topic": "Business",
+            "value": 9
         },
         {
-            "topic": "Entertainers",
-            "value": 85
+            "topic": "Entertainers/Artists",
+            "value": 137
         },
         {
-            "topic": "Science and Technology",
-            "value": 3
+            "topic": "Science and Technology/Health and Medicine",
+            "value": 5
         },
         {
             "topic": "Sports",
@@ -240,16 +240,16 @@
         "value": 46
     },
     {
-        "topic": "Domestic",
-        "value": 4
+        "topic": "Business",
+        "value": 16
     },
     {
-        "topic": "Entertainers",
-        "value": 93
+        "topic": "Entertainers/Artists",
+        "value": 111
     },
     {
-        "topic": "Science and Technology",
-        "value": 6
+        "topic": "Science and Technology/Health and Medicine",
+        "value": 11
     },
     {
         "topic": "Sports",
@@ -273,16 +273,16 @@
         "value": 44
     },
     {
-        "topic": "Domestic",
-        "value": 5
+        "topic": "Business",
+        "value": 14
     },
     {
-        "topic": "Entertainers",
-        "value": 53
+        "topic": "Entertainers/Artists",
+        "value": 69
     },
     {
-        "topic": "Science and Technology",
-        "value": 1
+        "topic": "Science and Technology/Health and Medicine",
+        "value": 4
     },
     {
         "topic": "Sports",
@@ -306,16 +306,16 @@
             "value": 31
         },
         {
-            "topic": "Domestic",
-            "value": 5
+            "topic": "Business",
+            "value": 11
         },
         {
-            "topic": "Entertainers",
-            "value": 36
+            "topic": "Entertainers/Artists",
+            "value": 61
         },
         {
-            "topic": "Science and Technology",
-            "value": 1
+            "topic": "Science and Technology/Health and Medicine",
+            "value": 6
         },
         {
             "topic": "Sports",
@@ -338,16 +338,16 @@
             "value": 20
         },
         {
-            "topic": "Domestic",
-            "value": 5
+            "topic": "Business",
+            "value": 14
         },
         {
-            "topic": "Entertainers",
-            "value": 24
+            "topic": "Entertainers/Artists",
+            "value": 45
         },
         {
-            "topic": "Science and Technology",
-            "value": 7
+            "topic": "Science and Technology/Health and Medicine",
+            "value": 9
         },
         {
             "topic": "Sports",
