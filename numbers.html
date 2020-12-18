@@ -4,6 +4,8 @@
   <style>
     body {
       font: 18px arial;
+      justify-content: center;
+      vertical-align: center;
     }
     .axis path,
     .axis line {
@@ -33,8 +35,39 @@
        padding-top: 20px;
        padding-left: 40px;
        padding-right: 40px;
-       color:rgb(173, 173, 173);
+       color:black;
      }
+
+     #button {
+          margin-top:10px;
+          width: 3.5em;
+          height:30px;
+          
+          background: rgb(173, 173, 173);
+          border-radius: 5px;
+          display: inline-block;
+          justify-content: center;
+          text-align: center;
+          margin: auto;
+          vertical-align: middle;
+          padding-bottom: 1px;
+          margin-bottom: 3px;
+          margin-left: 10px;
+          margin-right: 5px;
+          margin-top:10px;
+      }
+
+      a {
+          vertical-align: middle;
+          width: 100%;
+          line-height: 2em;
+          text-align: center;
+          text-decoration: none;
+          color:rgb(0, 0, 0);
+          font-family: Arial;
+          border-radius: 150px;
+          font-weight: bold;
+      }
 
     </style>
   <script src="d3.v3.min.js"></script>
@@ -42,7 +75,8 @@
   <title>What Makes a Woman?</title>
 </head>
 <body>
-  <p>Run your mouse over a column to see the number of portraits within that topic. Topics were categorized into 7 groups: Government, Sports, Science and Technology, Entertainers, Domestic, Writers, and Activism.</p>
+  <div id="button"><a href="index.html"><img src="pictures/arrow.png" width="40" height="30"></a><a class="et_pb_button"></a></div>
+    <p>Topics were categorized into 7 groups: Government, Sports, Science and Technology/Health and Medicine, Entertainers/Artists, Business, Writers, and Activism.</p>
   <script src="main.js"></script>
 </body>
 </html>
