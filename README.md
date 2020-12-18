@@ -1,12 +1,15 @@
 # What Makes a Woman?
+
+[Final Project](https://isabelstoddart.github.io/MS1QuantitativeData/)
+
 ### Description
-For this visualization I wanted to show how woman in the Smithsonian are represented through the topics they are tagged with. I looked at the portraits of women in The National Portrait Gallery. I chose to look at portraits because historically portraits were only painted of prominent figures and I wanted to see what women were classified as important enough to have a portrait made of them and why.
+For this visualization I wanted to show how woman in the Smithsonian are represented through the topics they are tagged with. I looked at the portraits of women in The National Portrait Gallery. I chose to look at portraits because historically portraits were only painted of prominent figures and I wanted to see which women were classified as important enough to have a portrait made of them and why.
 
-The visualization is split up into a graph showing a count of the number of portraits with each topic and a gallery of portraits showing the portraits from each year represented. 
+The visualization is split up into a graph showing a count of the number of portraits with each topic and a gallery of portraits split up by year.
 
-For the graph, I split topics into 7 categories. These categories are Science and Technology, Government, Writers, Business, Sports, Entertainment, and Activism. I grouped topics pertaining to this categories into these 7 areas. 
+For the graph, I split topics into 7 categories. These categories are Science and Technology, Government, Writers, Business, Sports, Entertainment, and Activism. I grouped topics pertaining to these categories into 7 areas. 
 
-The 7 groups have multiple topics within them. I include these below:
+The 7 groups have multiple topics within them.
 
 Science and Technology: "Engineers", "Science and Technology", "Health and Medicine", "Air pilots", "Inventors", "Scientists", "Nurses"
 
@@ -46,13 +49,16 @@ Changes made from iteration 1:
 * I added the portrait gallery so the user can see all of the portraits from the graph
 
 ## Iteration 3
-My final iteration of this project is a sample of a full analysis of portraits in the National Portrait Gallery from 1900-2010. I decided to expand the dates from my previous iteration after much comment on seeing the full picture.
+The third iteration of this project is a sample of a full analysis of portraits in the National Portrait Gallery from 1900-2010. I decided to expand the dates from my previous iteration after much comment on seeing the full picture.
 
 For this iteration, in order to see the complete story of portrait representation I had to abandon the API and look at the Smithsonian Collections Search Center. I got my topic count by using the query All Records / Dates: 1900s - 2010s / online media:"Images" / catalog record source:"National Portrait Gallery" / topic:"Women" / topic:"Portraits" and looking by year at the different topics.
 
 The images are also a sample containing all of the non copyrighted images I could get from the API and a sample of 20 randomly chosen portraits from 1960, 1970, 1980, 1990, and 2000/2010, resulting in a sample of 20 portraits with varying topics for each year.
 
 A finalized version of this project would include a system like before where all topics are counted and recorded and split into categories using data. It would also include all of the images of the portraits of women. As of now, there is only a small sample of the 2,132 portrait images.
+
+## Final
+The final iteration of this project 
 
 I hope this project allows users to explore these extraordinary women and notice some gaps in female representation in the Smithsonian collection and our overall women's history.
 
