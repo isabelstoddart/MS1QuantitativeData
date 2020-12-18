@@ -1,12 +1,10 @@
 let sourceJson;
 let filteredJson;
 
-// load JSON using d3.json
-d3.json('./data.json')
-  .then( json => {
-      // execute our 
-      // display images function
-      sourceJson = json;
+  d3.json('./data.json')
+    .then(json => {
+        sourceJson = json;        
+    filterData('allPortraits');
   }); 
 
 // Here wefilter the source json file
@@ -55,6 +53,8 @@ function filterData(mode){
         filteredJson = sourceJson.filter(function (n){
         return (n.date == "2000/2010s")
     })
+    }else if(mode=="allPortraits"){
+        filteredJson = sourceJson;
     }
     // Now that the data has been filtered we can display it
     displayImages()
@@ -102,5 +102,9 @@ function displayImages(){
 
     card.append('h3')
         .attr('class', 'title')
-        .text(d=>d.topic.slice(0,4))
+        .text(d=>d.topic)
+
+    card.append('h4')
+        .attr('class', 'title')
+        .text(d=>d.date)
 }
