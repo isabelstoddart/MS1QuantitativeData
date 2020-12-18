@@ -35,8 +35,6 @@ Iteration one of this project included a prototype on Adobe Xd and a coded barch
 ## Iteration 2
 Iteration two of this project turned the above prototype into code. It also added a second element to the visualization, which is a portrait gallery to see all of the women and the topics they pertain to. I also added in portraits from the SAAM to gather more data. 
 
-I have included screen shots below. The first shows the home page and the second and third show the graph and the portrait gallery.
-
 ![](QuantImage1.png)
 
 ![](QuantImage2.png)
@@ -48,20 +46,19 @@ Changes made from iteration 1:
 * I added portraits from The Smithsonian American Art Museum as well to have a bigger dataset
 * I added the portrait gallery so the user can see all of the portraits from the graph
 
-## Iteration 3
-The third iteration of this project is a sample of a full analysis of portraits in the National Portrait Gallery from 1900-2010. I decided to expand the dates from my previous iteration after much comment on seeing the full picture.
+## Final
+The third iteration of this project expands the dates from my previous iteration to look at 1900-2010.
 
 For this iteration, in order to see the complete story of portrait representation I had to abandon the API and look at the Smithsonian Collections Search Center. I got my topic count by using the query All Records / Dates: 1900s - 2010s / online media:"Images" / catalog record source:"National Portrait Gallery" / topic:"Women" / topic:"Portraits" and looking by year at the different topics.
 
-The images are also a sample containing all of the non copyrighted images I could get from the API and a sample of 20 randomly chosen portraits from 1960, 1970, 1980, 1990, and 2000/2010, resulting in a sample of 20 portraits with varying topics for each year.
+The images are a sample containing all of the non copyrighted images I could get from the API and a sample of about 18 randomly chosen portraits from 1960, 1970, 1980, 1990, and 2000/2010, resulting in a sample of about 18 portraits with varying topics for each year.
 
-A finalized version of this project would include a system like before where all topics are counted and recorded and split into categories using data. It would also include all of the images of the portraits of women. As of now, there is only a small sample of the 2,132 portrait images.
+A finalized version of this project would include a system like before where all topics are counted and recorded and split into categories using code. It would also include all of the images of the portraits of women. As of now, there is only a small sample of the 2,210 portrait images.
 
-## Final
-The final iteration of this project 
+![](finalpic1.png)
+![](finalpic2.png)
+![](finalpic3.png)
 
-I hope this project allows users to explore these extraordinary women and notice some gaps in female representation in the Smithsonian collection and our overall women's history.
-
-The final prototype can be found at https://isabelstoddart.github.io/MS1QuantitativeData/
+The final project can be found at https://isabelstoddart.github.io/MS1QuantitativeData/
 
 ** Bar chart inspired by https://bl.ocks.org/bricedev/0d95074b6d83a77dc3ad **
