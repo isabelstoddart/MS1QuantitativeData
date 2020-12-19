@@ -1,6 +1,6 @@
 # What Makes a Woman?
 
-[Final Project](https://isabelstoddart.github.io/MS1QuantitativeData/)
+## [Final Project](https://isabelstoddart.github.io/MS1QuantitativeData/)
 
 ### Description
 For this visualization I wanted to show how women in the Smithsonian are represented through the topics they are tagged with. I looked at the portraits of women in The National Portrait Gallery. I chose to look at portraits because historically portraits were only painted of prominent figures and I wanted to see which women were classified as important enough to have a portrait made of them and why.
