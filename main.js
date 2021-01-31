@@ -21,7 +21,7 @@ var yAxis = d3.svg.axis()
     .orient("left");
 
 var color = d3.scale.ordinal()
-    .range(["#264653","287271", "#2a9d8f","#9bc98b", "#e9c46a","#f4a261","#e76f51"]);
+    .range(["#264653","#287271", "#2a9d8f","#9bc98b", "#e9c46a","#f4a261","#e76f51"]);
 
 // create a tooltip
 var Tooltip = d3.select('body')
